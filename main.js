@@ -1,7 +1,10 @@
+'use strict'
+
 let valorTotal = 0
 let totalCadeirasVendidas = 0
 let totalCadeiras = 0
 let mensagem = document.getElementById('informacaoVendas')
+
 function tamanhoSala() {
     let fileiras = prompt('Digite quantas fileiras a sala possui:')
     let cadeiras = prompt('Digite quantas cadeiras cada fileira possui')
